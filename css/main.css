@@ -1,7 +1,8 @@
-@media(min-width:320px){
+
 body{
 font-family: 'Aref Ruqaa', serif;
 font-size:2.125em;
+
 }
 
 ol, 
@@ -38,6 +39,7 @@ padding-top:20px;
 .profile-container p {
 font-style:italic;
 text-align:center;
+overflow:hidden;
 
 }
 
@@ -66,12 +68,16 @@ max-width:100%;
 footer{
 font-size:0.625em;
 text-align:center;
-
+width:100%;
 
 }
 
 footer h1{
 margin-top:30px;
+display:inline-block;
+font-size:1em;
+
+
 }
 
 
@@ -87,10 +93,18 @@ clear:both;
 clear:left;
 }
 
+footer li{
+display:none;
+}
+
+footer a{
+
 
 }
 
-
+.top{
+display:inline;
+}
 
 
 
@@ -148,7 +162,25 @@ background-color:red;
 background-color:#cc2424;
 }
 
+.top{
+display:none;
+}
 
+footer li{
+display:inline-block;
+margin-left:15px;
+
+}
+
+footer h1{
+display:inline-block;
+margin-right:50px;
+
+}
+
+footer ul{
+display:inline-block;
+}
 
 
 
@@ -185,7 +217,26 @@ background-color:#42b6f4;
 color:#fff;
 }
 
+
+
 }
+
+@media(min-width:320px) and (max-width:768px){
+
+footer h1{
+
+display:inline-block;
+
+margin-right:30px;
+
+font-size:2em;
+
+}
+
+footer li{
+display:none;
+}
+
 
 
 
