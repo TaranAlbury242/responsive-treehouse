@@ -89,10 +89,6 @@ clear:both;
 }
 
 
-.main-content li:nth-child(4n){
-clear:left;
-}
-
 footer li{
 display:none;
 }
@@ -182,7 +178,9 @@ footer ul{
 display:inline-block;
 }
 
-
+.main-content li:nth-child(4n){
+clear:right;
+}
 
 
 }
@@ -217,6 +215,10 @@ background-color:#42b6f4;
 color:#fff;
 }
 
+.main-content li:nth-child(4n){
+clear:left;
+}
+
 
 
 }
@@ -239,5 +241,7 @@ display:none;
 
 
 
+
+}
 
 
